@@ -21,11 +21,7 @@ Ejecutar el script **BDFestivos.mjs** sin modificar:
 mongosh BDFestivos.mjs
 ```
 
-O desde la carpeta del proyecto:
-
-```bash
-mongosh "c:\Users\chech\OneDrive\Desktop\MicroServicios\BDFestivos.mjs"
-```
+(Ejecutar desde la carpeta raíz del proyecto)
 
 ### PostgreSQL (Calendario Laboral)
 
