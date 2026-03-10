@@ -1,0 +1,23 @@
+# Node
+node_modules/
+
+# Gradle / Java
+.gradle/
+build/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Evidencias (capturas van en el documento Word)
+Captura*.png

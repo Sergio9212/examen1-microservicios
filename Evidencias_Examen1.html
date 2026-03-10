@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Evidencias - Examen 1 Microservicios</title>
+    <style>
+        body { font-family: Calibri, Arial, sans-serif; margin: 2cm; line-height: 1.5; }
+        h1 { text-align: center; font-size: 18pt; margin-bottom: 20px; }
+        h2 { font-size: 14pt; margin-top: 24px; color: #2c5282; }
+        .info { background: #f0f4f8; padding: 15px; margin: 20px 0; border-radius: 5px; }
+        .info p { margin: 8px 0; }
+        .evidencia { margin: 20px 0; padding: 15px; border: 1px solid #e2e8f0; }
+        .evidencia img { max-width: 100%; height: auto; }
+        table { border-collapse: collapse; width: 100%; margin: 15px 0; }
+        td { padding: 8px; border: 1px solid #cbd5e0; }
+        .label { font-weight: bold; width: 180px; background: #edf2f7; }
+    </style>
+</head>
+<body>
+    <h1>EVIDENCIAS DE EJECUCIÓN - EXAMEN 1</h1>
+    <h1>Microservicios Integrados (ExpressJS + MongoDB / Spring Boot + PostgreSQL)</h1>
+
+    <div class="info">
+        <table>
+            <tr><td class="label">Institución:</td><td>[INSTITUTO TECNOLÓGICO METROPOLITANO]</td></tr>
+            <tr><td class="label">Estudiante(s):</td><td>[TU NOMBRE COMPLETO]</td></tr>
+            <tr><td class="label">Docente:</td><td>[NOMBRE DEL PROFESOR]</td></tr>
+            <tr><td class="label">Fecha:</td><td>[FECHA DE ENTREGA - ej: 10 de marzo de 2026]</td></tr>
+            <tr><td class="label">Link del repositorio:</td><td>[https://github.com/tu-usuario/tu-repositorio]</td></tr>
+        </table>
+    </div>
+
+    <h2>Evidencia 1: Fecha festiva (12 junio 2023 - Corpus Christi)</h2>
+    <p><strong>URL:</strong> http://localhost:3000/api/festivos/verificar/2023/6/12</p>
+    <div class="evidencia">
+        <p><em>Insertar captura de pantalla aquí</em></p>
+    </div>
+
+    <h2>Evidencia 2: Fecha no festiva (28 febrero 2023)</h2>
+    <p><strong>URL:</strong> http://localhost:3000/api/festivos/verificar/2023/2/28</p>
+    <div class="evidencia">
+        <p><em>Insertar captura de pantalla aquí</em></p>
+    </div>
+
+    <h2>Evidencia 3: Fecha inválida (35 febrero - Error 400)</h2>
+    <p><strong>URL:</strong> http://localhost:3000/api/festivos/verificar/2023/2/35</p>
+    <div class="evidencia">
+        <p><em>Insertar captura de pantalla aquí</em></p>
+    </div>
+
+    <h2>Evidencia 4: Listar festivos 2024</h2>
+    <p><strong>URL:</strong> http://localhost:3000/api/festivos/listar/2024</p>
+    <div class="evidencia">
+        <p><em>Insertar captura de pantalla aquí</em></p>
+    </div>
+
+    <h2>Evidencia 5: Festivos 2024 - API Calendario (proxy)</h2>
+    <p><strong>URL:</strong> http://localhost:8080/api/calendario/festivos/2024</p>
+    <div class="evidencia">
+        <p><em>Insertar captura de pantalla aquí</em></p>
+    </div>
+
+    <h2>Evidencia 6: Poblar calendario 2024 (POST)</h2>
+    <p><strong>Método:</strong> POST | <strong>URL:</strong> http://localhost:8080/api/calendario/poblar/2024</p>
+    <p><em>Ejecutar en Postman o PowerShell. Respuesta esperada: {"completado": true}</em></p>
+    <div class="evidencia">
+        <p><em>Insertar captura de pantalla aquí</em></p>
+    </div>
+
+    <h2>Evidencia 7: Calendario completo 2024</h2>
+    <p><strong>URL:</strong> http://localhost:8080/api/calendario/2024</p>
+    <div class="evidencia">
+        <p><em>Insertar captura de pantalla aquí</em></p>
+    </div>
+</body>
+</html>
