@@ -20,5 +20,6 @@ build/
 .DS_Store
 Thumbs.db
 
-# Evidencias (capturas van en el documento Word)
+# Evidencias (documento local, no en repo)
+Evidencias_Examen1.html
 Captura*.png
